@@ -1,0 +1,31 @@
+body{
+    background: rgb(224, 227, 231);
+}
+
+h1{
+    text-align: center;
+    margin: 70px;
+}
+
+#content{
+    width: 70%;
+    margin: auto;
+    display: block;
+}
+input{
+    background: transparent;
+    display: block;
+    margin: 40px;
+    margin-top: 15px;
+    border: solid gray 0.5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 50%;
+    height: 30px;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bolder;
+}

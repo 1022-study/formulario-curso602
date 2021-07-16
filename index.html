@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <h1>Presencial / virtual</h1>
+
+    <form onchange="verificar()" id="content" action="save.php" method="POST">
+        <label for="nombre">Nombres y apellidos:
+            <hr><input id="nombre" type="text" name="nombre">
+            <hr><br>
+        </label>
+        <label for="email"><br> Correo electrónico:
+            <hr><input id="email" type="email" name="email">
+            <hr><br>
+        </label>
+        <label for="P">Presencial<input id="presencial" type="checkbox" value="presencial" name="presencial"></label>
+        <label for="nombre">Virtual<input id="virtual" type="checkbox" value="virtual" name="virtual"><br>
+            <hr><br>
+        </label>
+        <label for="justificacion">Justificacion:
+            <hr><input id="justificacion" type="text" name="justificacion">
+            <hr><br>
+        </label>
+        <input id="send" type="submit" disabled>
+    </form>
+    <script src="confirm.js"></script>
+    <script src="validacion.js"></script>
+</body>
+
+</html>
